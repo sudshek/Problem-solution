@@ -1,9 +1,8 @@
 #include<iostream>
 using namespace std;
-int main()
+int Tree(int n)
 {
-	int n;
-	cin>>n;
+    
 	int t = n;
 	for(int i =1 ; i<=n ; i++)
 	{
@@ -31,3 +30,13 @@ int main()
 	return 0;
 
 }
+int main()
+{   printf("Enter the Value of N");
+    int n;
+	cin>>n;
+	Tree(n);
+	
+	
+}
+
+
